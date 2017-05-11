@@ -1,0 +1,11 @@
+.sunangel-listing__footer-full-width-wrapper {
+  background: $brand1;
+  margin-top: 30px;
+
+  .sunangel-listing__footer {
+    @include outer-container(800px);
+    padding: 20px 40px;
+    color: rgba($white, 0.67);
+    font-size: 0.9em;
+  }
+}

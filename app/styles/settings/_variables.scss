@@ -1,0 +1,29 @@
+//Colours
+
+$brand1: #232932;
+$brand2: #00adb5;
+$brand3: #000;
+$white: #fff;
+
+//Tyopgraphy
+$header: "'Trebuchet MS', sans-serif";
+$body: "'Arial', sans-serif";
+
+//Media Queries
+$tablet: 600px;
+
+
+//Mixins
+
+@mixin header() {
+  font-family: #{$header};
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin body() {
+  font-family: #{$body};
+  color: $brand1;
+  line-height: 1.5;
+  font-size: 15px;
+}
